@@ -14,12 +14,14 @@ body {
     height: 80vmin;
     border-radius: 50%;
     background: linear-gradient(black 50%, white 0);
+    position: relative;
 }  
 
 #yin:before, #yin:after {
     flex: 1;
     border: solid 80vmin/6 white;
     height: 50%;
+    box-sizing: border-box;
     border-radius: 50%;
     background: black;
     content: ''
@@ -28,4 +30,12 @@ body {
 #yin:after {
     border-color: black;
     background: white;
+}
+
+#circle1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  color: red;
 }
