@@ -33,9 +33,9 @@ body {
 }
 
 #circle1 {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  top: 0;
-  color: red;
+  /* position: absolute; */
+  width: 600px;
+  height: 600px;
+  /* top: 0; */
+  background-color: red;
 }
