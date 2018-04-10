@@ -1,0 +1,19 @@
+#yin {
+  width: 80vmin;
+  height: 80vmin;
+  border-radius: 50%;
+  background: linear-gradient(black 50%, white 0);
+  border: 2px solid black;
+
+  display: flex;
+  align-items: center;
+}
+
+#yin:before, #yin:after {
+  flex: 1;
+  height: 50%;
+  border-radius: 50%;
+  background: black;
+  content: '';
+}
+
