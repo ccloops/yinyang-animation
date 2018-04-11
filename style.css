@@ -14,10 +14,10 @@ body {
     height: 80vmin;
     border-radius: 50%;
     background: linear-gradient(black 50%, white 0);
-    position: relative;
-}  
-
-#yin:before, #yin:after {
+  }  
+  
+  #yin:before, #yin:after {
+    /* position: relative; */
     flex: 1;
     border: solid 80vmin/6 white;
     height: 50%;
@@ -33,9 +33,19 @@ body {
 }
 
 #circle1 {
-  /* position: absolute; */
-  width: 600px;
-  height: 600px;
-  /* top: 0; */
-  background-color: red;
+  position: absolute;
+  /* margin-right: 10px; */
+  width: 50px;
+  height: 50px;
+  background-color: rgb(66, 106, 47);
+  border-radius: 100%;
+}
+
+#circle2 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 0px;
+  background-color: darkSlateGray;
+  border-radius: 100%; 
 }
