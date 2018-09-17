@@ -1,1 +1,2 @@
 # yinyang-animation
+Catherine Looper
